@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Garlic sans-serif;
+}
+
+.container {
+    width: 1440px;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 50px 0 50px;
+    margin: 0 auto;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.explore {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 800;
+    text-shadow: 0 1px 4px black ;
+}
+
+.sideBar ul li{
+
+    list-style: none;
+    padding: 5px 0;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+.sideBar ul img {
+    margin-right: 10px;
+    width: 25px;
+}
+.sideBar ul .helpCenter {
+    margin-top: 200px;
+}
+.helpCenter {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+.content {
+    width: 85%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.search {
+    width: 50%;
+}
+.content nav {
+    width: 50%;
+    display: flex;
+}
+header nav ul {
+    display: inline-block;
+    width: 60%;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+.basket, .profile, .person {
+    display: inline-block;
+}
+.basket, .profile {
+    margin: 0 20px;
+}
+.person {
+    text-align: center;
+    width: 35%;
+}
+
+main {
+    font-size: 0;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.w1, .w2, .w3, .w4{
+    display: flex;
+}
+
+.w1, .w4 {
+    flex-direction: column;
+}
+
+.search {
+
+}
+
+/*.w1 img, .w4 img {*/
+/*    width: 80%;*/
+
+/*}*/
+/*.w2 img, .w3 img {*/
+/*    width: 80%;*/
+
+/*}*/
+.w1 img,  .w4 img {
+    margin-bottom: 20px;
+}
+.w2 img, .w3 img {
+    margin-right: 21px;
+ }
+.w22:nth-child(1) {
+    margin-left: 20px;
+}
